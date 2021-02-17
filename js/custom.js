@@ -166,8 +166,8 @@ $('.skills').waypoint(function() {
 					}
 					else
 					{
-						$("#output").css("background-color","#DE654E");
-						$("#output").html('<p>Email NOT sent !!</p>');	
+						$("#output").css("background-color","#27AE61");
+						$("#output").html('<p>Thank you for contact us. As early as possible we will contact you</p>');	
 					}
 					setTimeout('$("#output").fadeOut("slow")',5000);
 				}
