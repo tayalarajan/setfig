@@ -104,8 +104,8 @@
 				</div>
 				<div class="item"> <!-- Change Image -->
 					<div class="caption">
-						<h1 class="animated fadeInLeftBig"><strong>Change</strong></h1>
-						<p class="animated fadeInRightBig">Ready to future</p>
+						<h1 class="animated fadeInLeftBig"><strong>Ready</strong></h1>
+						<p class="animated fadeInRightBig">Upgrade to future</p>
 						<a data-scroll class="learn-more animated fadeInUpBig" href="#about">Start now</a>
 					</div>
 				</div>
@@ -656,7 +656,7 @@
 						<div class="container">	 	
 							<div class="sign_form wow fadeInLeft" data-wow-duration="1s" data-wow-delay="300ms">
 								<!-- SUBSCRIPTION FORM -->
-								<form id="sign-form" method="post" action="#">
+								<form id="sign-form" action="POST" data-netlify="true" role="form">
 									<input type="email" name="email" placeholder="Your E-MAIL Please" class="form-control input-box">
 									<input type="submit" value="Sign Up">
 									<div id="signup-error"></div>
@@ -750,7 +750,7 @@
 						</div>								
 						<div class="row wow fadeInRight" data-wow-duration="1s" data-wow-delay="800ms">
 							<!-- Start contact-form -->	
-							<form id="contact-form" method="post" action="#">
+							<form id="contact-form" action="POST" data-netlify="true" role="form">
 								<div class="col-lg-6 col-sm-6">				
 									<div class="form-group">
 										<input type="text" name="name" class="form-control" placeholder="Your name">
@@ -767,7 +767,7 @@
 										<textarea  name="message" class="form-control" placeholder="Your message" rows="8"></textarea>
 									</div>
 									<div id="output"></div>
-									<input type="submit" class="" value="Submit">
+									<input type="submit" class="" value="Send Message">
 								</div>
 							</form>
 							<!-- End contact-form -->
